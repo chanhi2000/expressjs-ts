@@ -1,1 +1,2 @@
-https://youtu.be/bYgphDEWwvs
+- https://youtu.be/bYgphDEWwvs
+- https://freecodecamp.org/news/build-bulletproof-apis-using-typescript-in-express/
