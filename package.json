@@ -1,38 +1,38 @@
 {
-  "name": "expressjs",
-  "version": "0.0.1",
-  "description": "expressjs",
+  "name": "expressjs-ts",
+  "version": "0.1.0",
+  "description": "expressjs-ts",
   "license": "ISC",
   "authors": {
     "name": "Chan Hee Lee",
     "email": "chanhi2000@gmail.com",
     "url": "https://chanhi2000.github.io"
   },
-  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanhi2000/expressjs.git"
+    "url": "git+https://github.com/chanhi2000/expressjs-ts.git"
   },
   "main": "index.js",
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/chanhi2000/expressjs/issues"
+    "url": "https://github.com/chanhi2000/expressjs-ts/issues"
   },
-  "homepage": "https://github.com/chanhi2000/expressjs#readme",
+  "homepage": "https://github.com/chanhi2000/expressjs-ts#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc",
-    "start": "npx tsc && node dist/index.js"
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
   },
   "dependencies": {
-    "@tsconfig/node22": "^22.0.6",
-    "cors": "^2.8.6",
-    "express": "^5.3.0"
+    "@tsconfig/node22": "catalog:",
+    "cors": "catalog:",
+    "express": "catalog:"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "typescript": "^7.0.2"
+    "@types/cors": "catalog:types",
+    "@types/express": "catalog:types",
+    "@types/node": "catalog:types",
+    "typescript": "catalog:"
   }
 }
