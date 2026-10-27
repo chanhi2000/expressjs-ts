@@ -8,6 +8,7 @@ catalog:
   express: ^5.3.0
   cors: ^2.8.6
   "@tsconfig/node22": ^22.0.6
+  nodemon: ^3.1.14
 
 catalogs:
   types:
